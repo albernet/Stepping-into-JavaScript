@@ -6,5 +6,5 @@ if (myAge < 18 || myAge > 30 || myAge ===25){
 
 } else{
 
-	document.write("you can come coming, you cool dude");
+	document.write("you can come, you cool dude");
 }
