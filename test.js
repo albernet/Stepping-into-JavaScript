@@ -1,9 +1,19 @@
-function name(a,b){
-    
-    var longString = (a + b);
-    return longString;
-            
+var average = 0
+
+
+function getAverage (a,b){
+	
+	average = (a + b) / 2;
+	console.log(average);
+	return average;
 }
-var more = "ROCKS!";
-    var myString = name("Andrea", "Bernet" +more);
-    console.log("Guess what everyone, "  + myString);
+
+var myResult = getAverage(7,11);
+console.log("the average is " + myResult);
+
+function logResult(){
+	
+	console.log("the average is " + myResult + " inside the function");	
+}
+
+logResult();
