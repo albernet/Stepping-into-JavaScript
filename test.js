@@ -1,13 +1,9 @@
-function getDifference (a,b){
-	
-	var difference = (a - b);
-	console.log(difference);
-	return difference;
+function name(a,b){
+    
+    var longString = (a + b);
+    return longString;
+            
 }
-
-var myResult = getDifference(20,10);
-console.log("the difference is" + myResult);
-
-
-
-
+var more = "ROCKS!";
+    var myString = name("Andrea", "Bernet" +more);
+    console.log("Guess what everyone, "  + myString);
