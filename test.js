@@ -98,7 +98,7 @@ console.log(res);
     /* *******number 6******** */
 
 
-document.getElementById("myAssignment").innerHTML = "Hello Brian, Brian Hello, Umm Hello, , Brian you there? Hello!!!!!!!";
+document.getElementById("myChatter").innerHTML = "Hello Brian, Brian Hello, Umm Hello, , Brian you there? Hello!!!!!!!";
 
 
 
